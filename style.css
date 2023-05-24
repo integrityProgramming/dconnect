@@ -1,5 +1,6 @@
 /* Media queries*/
 
+/*
 @media (min-width: 400px) {
     h1 {
         font-size: 1.5rem;
@@ -23,7 +24,25 @@
         font-size: 3rem;
     }
 }
+*/
 
+@media screen and (max-width: 800px) {
+    .headerOne {
+        font-size: 2.5em;
+    }
+    .para {
+        font-size: .75em;
+  }
+
+.registerLogin {
+    width: 25%;
+    height: auto;
+  }
+  .centerFooter {
+    margin-top: 25px;
+  }
+  
+  }
 * {
     margin: 0;
     padding: 0;
