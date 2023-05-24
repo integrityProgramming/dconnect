@@ -40,6 +40,14 @@ body, html {
     background: #dfe9f5;
 }
 
+hr {
+    margin: auto;
+    text-align: center;
+    background-color: black;
+    width: 35%;
+    height: 2px;
+}
+
 /* Header */
 
 .hero-image {
@@ -72,7 +80,7 @@ nav {
     position: absolute;
     top: 0;
     bottom: 0;
-    height: 100%;
+    height: 70%;
     left: 0;
     background: #dfe9f5;
     width: 90px;
@@ -82,6 +90,9 @@ nav {
     margin-top: 10%;
 }
 
+main.index {
+    padding: 15px 10% 15px 20%;
+}
 .logo {
     text-align: center;
     display: flex;
@@ -127,7 +138,6 @@ a{
 }
 
 a:hover {
-    background: #000;
     color: #fff;
 }
 
@@ -141,6 +151,15 @@ nav:hover {
     bottom: 0;
 }
 
+/*
+a,
+button {
+  display: inline;
+  text-decoration: none;
+  line-height: 17px;
+}
+*/
+
 ul {
     list-style-type: none;
     padding: 0; /* Remove padding */
@@ -150,7 +169,14 @@ ul {
 .nav-logo {
     width: 80px;
 }
-
+.welcome {
+    text-align: center;
+}
+.registerLogin li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+  }
 /* FOOTER */
 footer {
     position: fixed;

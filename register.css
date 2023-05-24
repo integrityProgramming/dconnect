@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #dfe9f5;
+}
+body {
+    text-align: center;
+}
+
+.submitBtn {
+    margin-right: 15px;
+    padding: .5%;
+    border-radius: 10%;
+    background-color: forestgreen;
+}
+
+.resetBtn {
+    padding: .5%;
+    border-radius: 10%;
+    background-color: crimson;
+}
+
+hr {
+    margin: auto;
+    text-align: center;
+    background-color: black;
+    width: 35%;
+    height: 2px;
+}
+
+form {
+    padding-top: 50px;
+}
+
+/* FOOTER */
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: black;
+    text-align: center;
+}
