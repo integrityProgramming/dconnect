@@ -1,0 +1,222 @@
+/* the styles for the elements */
+* {
+	margin: 0%;
+	padding: 0%;    
+}
+
+html, body {
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    width: 800px;
+    margin: 0 auto;
+	border-left: 3px solid #853c41;
+	border-right: 3px solid #853c41;
+	border-bottom: 3px solid #853c41;
+    background-color: #fbfae6;
+}
+/*
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fbfae6;
+  }
+*/
+  h1 {
+    font-size: 50px;
+  }
+  
+  .centerText {
+    text-align: center;
+  }
+
+  main.index {
+    text-align: center;
+}
+
+a{
+    position: relative;
+    color: #fbfae6;
+    font-size:  14px;
+    display: table;
+    width: 250px;
+    padding: 10px;
+}
+
+.fas {
+    position: relative;
+    width: 70px;
+    height: 40px;
+    top: 14px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.nav-item {
+    position: relative;
+    top: 12px;
+    margin-left: 10px;
+}
+
+ a:visited {
+	color: #fbfae6;
+	background-color: #853c41;
+	text-decoration: none;
+	width: 200px;
+  }
+
+  a:hover {
+    color: #853c41;
+	background-color: #fbfae6;
+	width: auto;
+	font-style:italic;
+}
+ nav:hover {
+    transition: all 0.5s ease;
+}
+
+.logout {
+    position: absolute;
+    bottom: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margins */
+}
+
+.nav-logo {
+    width: 80px;
+}
+
+.registerLogin li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+  }
+
+
+/* the styles for the header */
+header {
+	padding: 1.5em 0 2em 0;
+	border-bottom: 3px solid #931420;
+		background-image: -moz-linear-gradient(
+	    30deg, #853c41 0%, #853c41 30%, #fbfae6 50%, #853c41 80%, #853c41 100%);
+	background-image: -webkit-linear-gradient(
+	    30deg, #853c41 0%, #853c41 30%, #fbfae6 50%, #853c41 80%, #853c41 100%);
+	background-image: -o-linear-gradient(
+	    30deg, #853c41 0%, #853c41 30%, #fbfae6 50%, #853c41 80%, #853c41 100%);
+	background-image: linear-gradient(
+	    30deg, #853c41 0%, #853c41 30%, #fbfae6 50%, #853c41 80%, #853c41 100%);
+}
+/*
+header h2 {
+	font-size: 175%;
+	color: #853c41;
+}
+*/
+/*
+header h3 {
+	font-size: 130%;
+	font-style: italic;
+}
+*/
+/*
+header img {
+	float: left;
+	padding: 0 30px;
+}
+*/
+.shadow {
+	text-shadow: 2px 2px 2px #853c41;
+}
+/* the styles for the main content */
+
+/* the styles for the section */
+section {
+	width: 525px;
+	float: right;
+	padding: 0 20px 20px 20px;
+}
+section h1 {
+	font-size: 150%;
+	padding: .5em 0 .25em 0;
+	margin: 0;               /* If you remove this, the margins in normalize.css will be applied. */
+}
+/*
+section h2 {
+	color: #853c41;
+	font-size: 130%;
+	padding: .5em 0 .25em 0;
+}
+*/
+section p {
+	padding-bottom: .5em;
+}
+section blockquote {
+	padding: 0 2em;
+	font-style: italic;
+}
+section ul {
+	padding: 0 0 .25em 1.25em;
+}
+section li {
+	padding-bottom: .35em;
+}
+
+/* the styles for the article */
+/*
+article {
+	padding: .5em 0;
+	border-top: 2px solid #853c41;
+	border-bottom: 2px solid #853c41;
+}
+*/
+article h2 {
+	padding-top: 0;
+}
+article h3 {
+	font-size: 105%;
+	padding-bottom: .25em;
+}
+article img {
+	float: right;
+	margin: .5em 0 1em 1em;
+	border: 1px solid black;
+}
+
+/* the styles for the aside */
+aside {
+	height: 650px;
+	width: 260px;
+	float: left;
+	background-color: #853c41;
+	color: #fbfae6;
+}
+.registerLogin{
+	display: flex;
+  align-items: center;
+}
+
+aside img {
+	padding-bottom: 1em;
+}
+
+/* the styles for the footer */
+footer {
+	background-color: #853c41;
+	clear: both;
+	margin: 0%;
+	color: #fbfae6;
+}
+.left {
+	text-align: left;
+}
+footer p {
+	text-align: center;
+	color: #fbfae6;
+	padding: 1em 0;
+	margin: 0%;
+}
